@@ -445,3 +445,148 @@ footer strong {
     40% { transform: scale(1); }
     100% { transform: scale(1); }
 }
+/* ==========================
+   OFERTAS NUUVEM
+========================== */
+
+.nuuvem-section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: rgba(20, 20, 35, 0.85);
+    border: 1px solid rgba(155, 89, 255, 0.3);
+    border-radius: 18px;
+}
+
+.nuuvem-section .section-title {
+    color: #b77aff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nuuvem-desc {
+    text-align: center;
+    color: #bcbcbc;
+    font-size: 13px;
+    margin: 10px 0 20px;
+}
+
+.offers-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.offer-card {
+    background: #1c1c2e;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.offer-card:hover {
+    transform: translateY(-4px);
+}
+
+.offer-image {
+    position: relative;
+}
+
+.offer-image img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    display: block;
+}
+
+.offer-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #22c55e;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 6px;
+}
+
+.offer-content {
+    padding: 15px;
+}
+
+.offer-content h3 {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.platform {
+    color: #aaa;
+    font-size: 13px;
+}
+
+.offer-price {
+    color: #4ade80;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.btn-nuuvem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #0078d4;
+    color: white;
+    padding: 14px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-nuuvem:hover {
+    background: #005fa8;
+    box-shadow: 0 0 15px #0078d466;
+}
+
+.btn-all-offers {
+    display: block;
+    text-align: center;
+    color: white;
+    border: 1px solid #0078d4;
+    border-radius: 8px;
+    padding: 13px;
+    margin-top: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-all-offers:hover {
+    background: #0078d4;
+}
+
+.offer-warning,
+.affiliate-warning {
+    font-size: 11px;
+    color: #999;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 12px;
+}
+
+.old-price {
+    color: #999;
+    font-size: 14px;
+    text-decoration: line-through;
+    display: block;
+}
+
+.current-price {
+    color: #4ade80;
+    font-size: 26px;
+    font-weight: bold;
+}
